@@ -4,7 +4,11 @@ while count <= 5:
     print("Count is:", count)
     count += 1  # Increment to avoid infinite loop
 
-
+l =[34,"shyam",False,56]
+i=0
+while(i<len(l)+1):
+    print(l[i])
+    i+=1
 
 
 secret_word = "shyam"
@@ -24,3 +28,5 @@ if out_of_guesses:
     print("out of guesses,you lose")
 else:
     print("you win!")                
+
+
